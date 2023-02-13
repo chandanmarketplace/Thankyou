@@ -9,7 +9,7 @@ const RightView = ({ getComponents }) => {
     setfirst,
     setSecond,
     setView,
-  } = useContext(AppStateContext);
+  } = useContext(AppStateContext); 
 
   return (
     <>
