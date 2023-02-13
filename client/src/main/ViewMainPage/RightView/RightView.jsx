@@ -32,7 +32,9 @@ const RightView = ({ getComponents }) => {
                       <span className="visually-hidden">Description</span>
                     </th>
                     <th scope="col">
-                      <span className="visually-hidden">Quantity</span>
+                      <span className="visually-hidden">
+                        Quantity
+                      </span>
                     </th>
                     <th scope="col">
                       <span className="visually-hidden">Price</span>
