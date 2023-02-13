@@ -1,0 +1,524 @@
+*{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+}
+
+.list-group-item .element-drag-icon svg.editor-icon {
+    width: 20px;
+    height: 20px;
+    top: 0;
+    right: -8px;
+    fill: #8c9196;
+}
+
+span.Polaris-Icon.element-drag-icon.ui-sortable-handle {
+    text-align: right;
+    position: absolute;
+    right: 15px;
+    top: 14px;
+    cursor: -webkit-grab;
+}
+
+.exit.currentPageTitle.polaris-custom-back {
+    display: flex;
+    align-items: center;
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+.exit.currentPageTitle.polaris-custom-back {
+    background: 0 0;
+    color: #fff;
+    padding: 18px 17px 18px 18px;
+    font-size: 16px;
+    display: flex;
+    float: left;
+    border: none;
+    border-right: 1px solid #ced3d7;
+}
+
+.Polaris-Icon-back-menu {
+    width: 20px;
+    fill: #5C5F62;
+}
+
+.polaris-custom-back span {
+    font-size: 13px;
+    opacity: 0;
+    transform: translateX(-0.8rem);
+    transition-property: opacity,transform;
+    transition-duration: .2s;
+    transition-timing-function: cubic-bezier(.64,0,.35,1);
+    transition-delay: 0s;
+    width: 0;
+}
+
+.template-title-text.template-title {
+    color: #212b35;
+    padding: 21px 12px 20px;
+    font-size: 14px;
+    line-height: 16px;
+    display: inline-block;
+    cursor: pointer;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+}
+
+.header-LeftSide {
+    border-bottom: 1px solid #ced3d7;
+}
+
+.polaris-custom-back:hover span {
+    display: block;
+    margin-left: 10px;
+    width: fit-content;
+    opacity: 1;
+    transform: translateX(0);
+    transition-delay: .1s;
+    position: relative;
+    top: 1px;
+    font-weight: 700;
+    color: #1a1c1d;
+}
+
+.custom-box-editor li.list-group-item{
+    border-radius: 4px!important;
+    box-shadow: 0 1px 3px 0 rgb(64 64 64 / 24%);
+    z-index: 999999;
+    border-bottom: 0.1rem solid var(--p-border-subdued);
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: white;
+    cursor: pointer;
+}
+.custom-box-editor li.list-group-item:hover {
+    background: #f4f6f8;
+}
+
+.custom-box-editor {
+    padding: 0 15px 0 15px;
+    margin-bottom: 7px;
+}
+.Polaris-Icon.editor-set-icon {
+    padding: 9px 8.5px 8.5px 8.5px;
+    background: #f4f6f8;
+    border-radius: 4px;
+    border: 1px solid #c9cccf;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    display: flex !important;
+    margin: 0 12px 0 0;
+}
+
+.Polaris-Icon {
+    display: block;
+    height: 2rem;
+    width: 2rem;
+    max-height: 100%;
+    max-width: 100%;
+    margin: auto;
+}
+.icon-postion {
+    position: relative;
+    top: 1px!important;
+    left: unset;
+}
+
+
+.list-group-item .title {
+    font-size: 14px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+}
+
+
+.panel-line-spacer {
+    margin: 15px 0;
+}
+.custom-box-editor {
+    padding: 0 15px 0 15px;
+    margin-bottom: 7px;
+}
+.nav:after, .nav:behtmlFore {
+    content: " ";
+    display: table;
+}
+
+.panel-line-spacer span {
+    display: block;
+    border: 0.5px solid #b4b9be;
+    width: 100%;
+    background: #b4b9be;
+}
+
+.list-group-item.add-section .text {
+    display: inline-block;
+    color: #2c6ecb;
+    font-weight: 500;
+    margin-left: 5px;
+    font-size: 14px;
+}
+
+.Polaris-Icon.editor-set-icon.back-add-btn {
+    border: 0;
+    background: 0 0;
+    height: 38px;
+    width: 38px;
+}
+
+.list-group-item {
+    padding: 5px 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+}
+.back-border-padd {
+    padding: 10px;
+    background: #fff;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.confirm-section-add {
+    display: none;
+    line-height: 22px;
+    position: absolute;
+    right: 6px;
+    padding: 2px 9px;
+    height: auto;
+    min-height: auto;
+    min-width: auto;
+    font-size: 13px;
+}
+.list-group-item:hover a {
+    display: block !important;
+    background: #008060;
+    color: white;
+}
+.select-product-css-new {
+    background: #fff;
+    padding: 23px 0 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #202223;
+    position: relative;
+    border-bottom: 1px solid #ced3d7;
+}
+
+.border-custom-rownd-border {
+    border-radius: 7px;
+    overflow: hidden;
+    box-shadow: 0 0 0 1px rgb(63 63 68 / 5%), 0 1px 3px 0 rgb(63 63 68 / 15%);
+    background-color: #f4f6f8;
+}
+
+.select-product-css-new {
+    background: #fff;
+    padding: 23px 0 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #202223;
+    position: relative;
+    border-bottom: 1px solid #ced3d7;
+}
+.slide-to {
+    cursor: pointer;
+}
+.select-product-css-new span {
+    font-size: 16px;
+    color: #000;
+    font-weight: 600;
+    left: 4px;
+    right: unset;
+    top: 14px;
+}
+.hover-button-close {
+    padding: 8px;
+    position: absolute;
+    right: 20px;
+    top: 10px;
+}
+.editor-icon-close {
+    width: 20px;
+    height: 20px;
+}
+
+.select-product-css-new span {
+    font-size: 16px;
+    color: #000;
+    font-weight: 600;
+    left: 4px;
+    right: unset;
+    top: 14px;
+}
+
+.padd-top-13px-flex {
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.custom-label-css {
+    padding: 10px 15px 10px;
+    color: #6d7175;
+    font-weight: 600;
+    width: 100%;
+    border-bottom: 1px solid #ced3d7;
+    background: #f4f6f8;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+a.Polaris-Button,
+button.Polaris-Button {
+    text-decoration: none;
+    text-transform: initial;
+    font-size: 12px;
+}
+
+
+.panel-body.cust-min-height {
+    height: calc(100vh - 341px);
+    min-height: calc(100vh - 341px);
+    padding: 0;
+}
+
+.panel-body {
+    background-color: #f4f6f8;
+    padding: 16px 0 16px 0;
+    height: calc(100vh - 186px);
+    min-height: -webkit-calc(100vh - 120px);
+    min-height: calc(100vh - 320px);
+    overflow: auto;
+}
+
+.htmlForm-select{
+    background-image: url("https://cdn.shopify.com/s/files/1/0267/2993/9018/files/arrow.svg?v=1671524345") !important;
+    background-size: 20px 20px !important;
+}
+
+.custom-me-new-find {
+    margin-top: 0!important;
+    background: #fff;
+    width: 100%;
+    border: 1px solid transparent;
+    border-top: 1px solid #ced3d7;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    padding: 6px 8px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.custom-me-new-find .Polaris-Icon {
+    height: auto;
+    margin-top: 1px;
+}
+
+.custom-me-new-find .Polaris-Button{
+    border: none;
+    font-size: 14px;
+    padding: 8px 0;
+}
+
+svg.editor-icon.enable-disable {
+    width: 22px;
+    cursor: pointer;
+    margin-bottom: -5px !important;
+}
+.rdw-editor-toolbar {
+    padding: 6px 5px 0;
+    border-bottom: 1px solid #ced4da !important;
+    border-radius: 2px;
+    border: 1px solid #F1F1F1;
+    display: flex;
+    justify-content: flex-start;
+    background: white;
+    flex-wrap: wrap;
+    font-size: 15px;
+    margin-bottom: 5px;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.rdw-editor-wrapper {
+    box-sizing: content-box;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+}
+
+.rdw-editor-main {
+    overflow: auto;
+    box-sizing: border-box;
+    min-height: 12rem;
+    padding: 0 1rem;
+}
+
+a.rdw-dropdown-selectedtext {
+    color: black;
+    text-decoration: none;
+}
+
+.rdw-inline-wrapper .rdw-option-wrapper:nth-child(n+5) {
+    display: none;
+}
+
+.rdw-list-wrapper {
+    display: none;
+}
+
+.rdw-option-wrapper {
+    border: none;
+}
+
+.rdw-option-active {
+    box-shadow: none;
+    background: lightgray;
+}
+
+.rdw-embedded-wrapper, .rdw-emoji-wrapper, .rdw-image-wrapper, .rdw-remove-wrapper, .rdw-history-wrapper, .rdw-list-wrapper {
+    display: none !important;
+}
+
+.rdw-fontsize-dropdown {
+    min-width: 45px;
+}
+
+.Polaris-Banner--withinPage.Polaris-Banner--statusWarning {
+    background: rgba(255, 245, 234, 1);
+    border:1.8px solid #e1b878;
+    border-radius: 10px;
+}
+.btn-group-ss.bg-white{
+    border-radius: 4px;
+    border-top-left-radius:0;
+    border-top-right-radius:0;
+}
+
+.btn-group-ss.bg-white button{
+    border-radius: 0;
+}
+.empty-img-container {
+    background-color: #f6f6f7;
+    padding: 4px;
+    border: 1px solid #c4cdd5;
+    min-height: 137px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+    justify-content: center;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.Polaris-Banner--withinPage.Polaris-Banner--statusInfo{
+    background-color: #EBF9FC;
+    border: 1px solid #98c6cd;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+.hfstyle input[type=checkbox]+label {
+    margin: 0 5px 0 0;
+    padding: 10px 14px;
+    background-color: #ececec;
+    color: #929292;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 50px;
+    text-align: center;
+}
+
+.hfstyle input[type=checkbox]{
+    display: none;
+}
+
+.hfstyle input[type=checkbox]:checked+label {
+    background-image: none;
+    background-color: rgb(0 128 96);
+    color: #fff;
+}
+
+
+.segments-index {
+    margin: 0 15px 0 15px;
+    margin-bottom: 7px;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px 0 rgb(64 64 64 / 24%);
+    overflow: hidden;
+}
+
+.right-area-ul {
+    border-end-end-radius: 0 !important;
+    border-end-start-radius: 0 !important;
+    opacity: .6;
+}
+
+.characters-right-area{
+    border-start-end-radius: 0 !important;
+    border-start-start-radius: 0 !important;
+}
+
+button.hide-show.drag-eyes {
+    margin-left: auto;
+    border: none;
+    background: none;
+    margin-top: -2px;
+}
+
+.dragable-icon {
+    margin: 0;
+    margin-left: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dragable-icon svg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: -10px;
+    width: 25px;
+}
+
+#element-roll-2463415 .Polaris-Icon.editor-set-icon {
+    padding: 5px 5.5px 5.5px 5.5px;
+    background: #f4f6f8;
+    border-radius: 4px;
+    border: 1px solid #c9cccf;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    display: inline-block;
+    margin: 0 12px 0 0;
+}
+li#element-roll-2463415 {
+    padding: 12px;
+    border-bottom: 1px solid #ced3d7;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+    font-size: 14px;
+}
+
+.btn-group-ss{
+    display: none;
+}
+.select-image.slide-to{
+
+}
+
+button.uploadcare--widget__button.uploadcare--widget__button_type_open{
+    display: none;
+}
+#uploadcare--widget__text{
+    display: none;
+}
